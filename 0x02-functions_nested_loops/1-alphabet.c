@@ -1,16 +1,22 @@
+
+
 #include "holberton.h"
 /**
- * print_alphabet - Print alphabet in lowercase using only `_putchar`
+ * main - Print "Holberton" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
  * Return: 0
  */
-void print_alphabet(void)
+int main(void)
 {
-char c = 'a';
+char holberton[] = "Holberton";
+int i = 0;
 
-while (c <= 'z')
+while (holberton[i] != '\0')
 {
-_putchar(c);
-c++;
+_putchar(holberton[i]);
+i++;
 }
 _putchar('\n');
+
+return (0);
 }
