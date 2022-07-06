@@ -1,3 +1,9 @@
+
+B
+
+i
+B
+B
 #include "main.h" 
 /** 
  * main - prints putchar                                                                                                         
