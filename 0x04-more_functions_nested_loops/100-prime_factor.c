@@ -17,7 +17,7 @@ while (n % i == 0)
 n = n / i;
 }
 
-printf("%7u\n", n);
+printf("%lu\n", n);
 
 return (0);
 }
